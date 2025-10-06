@@ -1,0 +1,33 @@
+{
+  "name": "backsmith",
+  "version": "1.0.0",
+  "main": "dist/main.js",
+  "scripts": {
+    "dev": "tsx src/main.ts",
+    "build": "tsc",
+    "start": "node dist/main.js"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahmedali109/BackSmith.git"
+  },
+  "dependencies": {
+    "chalk": "^5.6.2",
+    "inquirer": "^12.9.6",
+    "ora": "^9.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "tsx": "^4.20.6",
+    "@types/node": "^24.7.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahmedali109/BackSmith/issues"
+  },
+  "homepage": "https://github.com/ahmedali109/BackSmith#readme",
+  "description": ""
+}

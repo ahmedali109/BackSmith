@@ -1,0 +1,102 @@
+{
+  "databases": {
+    "mongodb": {
+      "display_name": "MongoDB",
+      "aliases": ["mongo"],
+      "type": "nosql",
+      "category": "document",
+      "description": "Document-oriented NoSQL database",
+      "port": 27017,
+      "docker_image": "mongo:latest",
+      "connection_examples": {
+        "nodejs": "mongodb://localhost:27017/myapp",
+        "python": "mongodb://localhost:27017/myapp",
+        "go": "mongodb://localhost:27017/myapp"
+      }
+    },
+    "postgresql": {
+      "display_name": "PostgreSQL",
+      "aliases": ["postgres", "psql"],
+      "type": "sql",
+      "category": "relational",
+      "description": "Advanced open source relational database",
+      "port": 5432,
+      "docker_image": "postgres:latest",
+      "connection_examples": {
+        "nodejs": "postgresql://user:password@localhost:5432/myapp",
+        "python": "postgresql://user:password@localhost:5432/myapp",
+        "go": "postgresql://user:password@localhost:5432/myapp"
+      }
+    },
+    "mysql": {
+      "display_name": "MySQL",
+      "aliases": ["mariadb"],
+      "type": "sql",
+      "category": "relational", 
+      "description": "Popular open source relational database",
+      "port": 3306,
+      "docker_image": "mysql:latest",
+      "connection_examples": {
+        "nodejs": "mysql://user:password@localhost:3306/myapp",
+        "python": "mysql://user:password@localhost:3306/myapp",
+        "go": "user:password@tcp(localhost:3306)/myapp"
+      }
+    },
+    "sqlite": {
+      "display_name": "SQLite",
+      "aliases": ["sqlite3"],
+      "type": "sql",
+      "category": "embedded",
+      "description": "Lightweight embedded SQL database",
+      "port": null,
+      "docker_image": null,
+      "connection_examples": {
+        "nodejs": "./database.sqlite",
+        "python": "./database.sqlite",
+        "go": "./database.sqlite"
+      }
+    },
+    "redis": {
+      "display_name": "Redis",
+      "aliases": ["redis-server"],
+      "type": "nosql",
+      "category": "key-value",
+      "description": "In-memory data structure store",
+      "port": 6379,
+      "docker_image": "redis:latest",
+      "connection_examples": {
+        "nodejs": "redis://localhost:6379",
+        "python": "redis://localhost:6379",
+        "go": "localhost:6379"
+      }
+    },
+    "cassandra": {
+      "display_name": "Apache Cassandra",
+      "aliases": ["cassandra"],
+      "type": "nosql",
+      "category": "wide-column",
+      "description": "Distributed NoSQL database designed for large amounts of data",
+      "port": 9042,
+      "docker_image": "cassandra:latest",
+      "connection_examples": {
+        "nodejs": "127.0.0.1:9042",
+        "python": "127.0.0.1:9042",
+        "go": "127.0.0.1:9042"
+      }
+    },
+    "elasticsearch": {
+      "display_name": "Elasticsearch",
+      "aliases": ["elastic"],
+      "type": "nosql",
+      "category": "search",
+      "description": "Distributed search and analytics engine",
+      "port": 9200,
+      "docker_image": "elasticsearch:latest",
+      "connection_examples": {
+        "nodejs": "http://localhost:9200",
+        "python": "http://localhost:9200",
+        "go": "http://localhost:9200"
+      }
+    }
+  }
+}

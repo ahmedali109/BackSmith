@@ -1,0 +1,69 @@
+{
+  "languages": {
+    "node.js": {
+      "display_name": "Node.js",
+      "aliases": ["nodejs", "node", "javascript", "js"],
+      "file_extensions": [".js", ".ts", ".json"],
+      "package_files": ["package.json"],
+      "template_dir": "Node.js",
+      "cli_flag": "nodejs",
+      "description": "JavaScript runtime built on Chrome's V8 JavaScript engine",
+      "templates_enabled": true
+    },
+    "python": {
+      "display_name": "Python",
+      "aliases": ["py", "python3"],
+      "file_extensions": [".py", ".pyw", ".pyc"],
+      "package_files": [
+        "requirements.txt",
+        "setup.py",
+        "pyproject.toml",
+        "Pipfile"
+      ],
+      "template_dir": "Python",
+      "cli_flag": "python",
+      "description": "High-level programming language for general-purpose programming",
+      "templates_enabled": true
+    },
+    "go": {
+      "display_name": "Go",
+      "aliases": ["golang"],
+      "file_extensions": [".go"],
+      "package_files": ["go.mod", "go.sum"],
+      "template_dir": "Go",
+      "cli_flag": "go",
+      "description": "Open source programming language that makes it easy to build simple, reliable, and efficient software",
+      "templates_enabled": true
+    },
+    "php": {
+      "display_name": "PHP",
+      "aliases": ["php7", "php8"],
+      "file_extensions": [".php", ".phtml"],
+      "package_files": ["composer.json", "composer.lock"],
+      "template_dir": "PHP",
+      "cli_flag": "php",
+      "description": "Popular general-purpose scripting language especially suited to web development",
+      "templates_enabled": true
+    },
+    "java": {
+      "display_name": "Java",
+      "aliases": ["jvm"],
+      "file_extensions": [".java", ".class", ".jar"],
+      "package_files": ["pom.xml", "build.gradle", "build.gradle.kts"],
+      "template_dir": "Java",
+      "cli_flag": "java",
+      "description": "Class-based, object-oriented programming language",
+      "templates_enabled": false
+    },
+    "rust": {
+      "display_name": "Rust",
+      "aliases": ["rs"],
+      "file_extensions": [".rs"],
+      "package_files": ["Cargo.toml", "Cargo.lock"],
+      "template_dir": "Rust",
+      "cli_flag": "rust",
+      "description": "Systems programming language focused on safety, speed, and concurrency",
+      "templates_enabled": false
+    }
+  }
+}
