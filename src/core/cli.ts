@@ -1,12 +1,12 @@
 import inquirer from 'inquirer';
 import chalk from 'chalk';
-import { ADD_COMMAND } from '@/commands/add.js';
-import { DELETE_COMMAND } from '@/commands/delete.js';
-import { LIST_COMMAND } from '@/commands/list.js';
-import { PREVIEW_COMMAND } from '@/commands/preview.js';
-import { RENAME_COMMAND } from '@/commands/rename.js';
-import { RUN_COMMAND } from '@/commands/run.js';
-import { SAVE_COMMAND } from '@/commands/save.js';
+import { ADD_COMMAND } from '@/commands/add';
+import { DELETE_COMMAND } from '@/commands/delete';
+import { LIST_COMMAND } from '@/commands/list';
+import { PREVIEW_COMMAND } from '@/commands/preview';
+import { RENAME_COMMAND } from '@/commands/rename';
+import { RUN_COMMAND } from '@/commands/run';
+import { SAVE_COMMAND } from '@/commands/save';
 
 const showHelp = () => {
   console.log(chalk.blue('BackSmith CLI'));

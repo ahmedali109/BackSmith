@@ -1,3 +1,3 @@
-import { RUN_CLI } from '@/core/cli.js';
+import { RUN_CLI } from '@/core/cli';
 
 RUN_CLI();
